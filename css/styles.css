@@ -22,7 +22,7 @@ html {
 body {
     background-color: "Roboto", sans-serif;
     font-family: var(--font-family);
-    color: var(--secondary-black-color);
+    color: var(--primary-white-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
