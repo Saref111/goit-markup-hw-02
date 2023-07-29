@@ -34,17 +34,6 @@ button {
     text-decoration: none;
 }
 
-.visually-hidden {
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .header {
     margin: 0 auto;
 }
@@ -95,9 +84,7 @@ button {
 
 .nav-link:hover::after,
 .nav-link:focus::after {
-    content: "";
-    height: 4px;
-    background: var(--secondary-brand-color);
+    background-color: var(--secondary-brand-color);
 }
 
 .address {
@@ -146,7 +133,6 @@ button {
     background-color: var(--primary-brand-color);
     color: var(--primary-white-color);
     margin: 0 auto;
-    border: none;
 }
 
 .action-button:hover,
@@ -227,7 +213,6 @@ button {
 }
 
 .filters-button {
-    border: 1px solid var(--primary-accent-color);
     background-color: var(--secondary-white-color);
     color: var(--primary-brand-color);
     text-align: center;
@@ -243,30 +228,22 @@ button {
 .filters-button:hover,
 .filters-button:focus {
     color: var(--primary-white-color);
-    border: 1px solid var(--secondary-brand-color);
     background-color: var(--secondary-brand-color);
 }
 
 .goods-link {
     overflow: hidden;
-    border: 1px solid var(--primary-accent-color);
     background-color: var(--primary-white-color);
 }
 
 .goods-link-info {
     margin: 0;
-    height: 300px;
     color: var(--secondary-white-color);
     background: var(--primary-brand-color);
     font-family: var(--font-family);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-}
-
-.goods-link:hover,
-.goods-link:focus {
-    border: 1px solid var(--secondary-white-color);
 }
 
 .goods-link img {
