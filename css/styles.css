@@ -6,7 +6,7 @@
     --primary-brand-color: #4D5AE5;
     --secondary-brand-color: #404BBF;
     --primary-accent-color: #E7E9FC;
-    --font-family: "Roboto", "Arial", sans-serif;
+    --font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -75,25 +75,28 @@ img {
 }
 
 .logo {
-    font-family: "Raleway", "Arial", sans-serif;
-    color: var(--primary-black-color);
+    font-family: "Raleway", sans-serif;
+    color: var(--primary-brand-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     word-spacing: 0;
 }
 
 .footer .logo {
-    color: var(--primary-white-color);
     display: inline-block;
     margin-bottom: 16px;
 } 
 
+.footer .logo span{
+    color: var(--primary-white-color);
+}
+
 .logo span {
-    color: var(--primary-brand-color);
+    color: var(--primary-black-color);
 }
 
 .nav .logo {
