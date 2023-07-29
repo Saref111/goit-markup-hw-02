@@ -113,7 +113,7 @@ img {
 }
 
 .nav-link {
-    color: var(--secondary-black-color);
+    color: var(--primary-black-color);
     font-family: var(--font-family);
     font-size: 16px;
     font-style: normal;
@@ -125,7 +125,7 @@ img {
 .nav-link:hover,
 .nav-link:focus {
     position: relative;
-    color: var(--primary-brand-color);
+    color: var(--secondary-brand-color);
     outline: none;
 }
 
@@ -141,6 +141,10 @@ img {
     bottom: -20px;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-list {
     display: flex;
     gap: 40px;
@@ -150,7 +154,6 @@ img {
     color: var(--secondary-black-color);
     font-family: var(--font-family);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -183,6 +186,12 @@ img {
 }
 
 .action-button {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
     display: block;
     border-radius: 4px;
     background-color: var(--primary-brand-color);
@@ -282,7 +291,7 @@ img {
 }
 
 .footer .text {
-    color: var(--primary-white-color);
+    color: var(--secondary-white-color);
     font-family: var(--font-family);
     font-size: 16px;
     font-style: normal;
