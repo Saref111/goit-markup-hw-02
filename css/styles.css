@@ -91,11 +91,11 @@ img {
     margin-bottom: 16px;
 } 
 
-.footer .logo span{
+.footer .logo-span{
     color: var(--primary-white-color);
 }
 
-.logo span {
+.logo-span {
     color: var(--primary-black-color);
 }
 
