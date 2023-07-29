@@ -4,6 +4,7 @@
     --primary-black-color: #2E2F42;
     --secondary-black-color: #434455;
     --primary-brand-color: #4D5AE5;
+    --primary-accent-color: #E7E9FC;
     --font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -86,6 +87,8 @@ img {
 
 .footer .logo {
     color: var(--primary-white-color);
+    display: block;
+    margin-bottom: 16px;
 } 
 
 .logo span {
@@ -158,6 +161,7 @@ img {
     color: var(--primary-white-color);
     padding: 16px 32px;
     margin: 0 auto;
+    border: none;
 }
 
 .section {
@@ -170,6 +174,10 @@ img {
 
 .pt0 {
     padding-top: 0;
+}
+
+.pt96 {
+    padding-top: 96px;
 }
 
 .content-list {
@@ -192,6 +200,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .title {
@@ -214,12 +224,24 @@ img {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.32px;
+    margin: 0;
 }
 
 .team-item {
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--primary-white-color);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    overflow: hidden;
+    padding-bottom: 32px;
+}
+
+.team-item img {
+    margin-bottom: 32px;
 }
 
 .footer {
@@ -249,8 +271,8 @@ img {
 .filters-button {
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background-color: var(--cloud, #F4F4FD);
+    border: 1px solid var(--primary-accent-color);
+    background-color: var(--secondary-white-color);
     color: var(--primary-brand-color);
     text-align: center;
     white-space: nowrap;
@@ -269,4 +291,21 @@ img {
                 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     border: 1px solid var(--primary-brand-color);
     background-color: var(--primary-brand-color);
+}
+
+.goods-link {
+    width: 360px;
+    display: block;
+    border: 1px solid var(--primary-accent-color);
+    background-color: var(--primary-white-color);
+    padding-bottom: 32px;
+}
+
+.goods-link img {
+    margin-bottom: 32px;
+}
+
+.goods-link .text,
+.goods-link .sub-title {
+    padding: 0 16px;
 }
